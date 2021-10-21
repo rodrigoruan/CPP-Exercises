@@ -5,9 +5,8 @@ using namespace std;
 
 int main()
 {
-  double a, b, c;
+  double a, b;
   cin >> a;
   cin >> b;
-  cin >> c;
-  cout << "MEDIA = " << fixed << setprecision(1) << ((a * 2) + (b * 3) + (c * 5)) / (2 + 3 + 5) << endl;
+  cout << "MEDIA = " << fixed << setprecision(5) << ((a * 3.5) + (b * 7.5)) / (3.5 + 7.5) << endl;
 }
