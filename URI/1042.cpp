@@ -1,16 +1,24 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <vector>
 using namespace std;
 
-int main() {
+int main()
+{
   int a, b, c;
   cin >> a >> b >> c;
-  int arr[] = { a, b, c };
-  int n = sizeof(arr) / sizeof(arr[0]);
+  int arr[] = {a, b, c};
+  
+  for(int i = 0; i < 3; i++) {
+    for(int j = 0; j < 3; j++) {
+      if(arr[j] > arr[i]) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
 
-  sort(arr, arr + n);
-
-  for(int i = 0; i < n; i++) {
+  for(int i = 0; i < 3; i ++) {
     cout << arr[i] << endl;
   }
 
