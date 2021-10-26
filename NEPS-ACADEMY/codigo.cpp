@@ -5,10 +5,9 @@ using namespace std;
 
 int main()
 {
-  int a;
+  int a, res=0;
   cin >> a;
   string v;
-  int res = 0;
 
   for (int i = 0; i < a; i++)
   {
