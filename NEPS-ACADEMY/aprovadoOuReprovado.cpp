@@ -1,17 +1,33 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  double A, B, RESULT;
-  cin >> A;
-  cin >> B;
-  RESULT = (A + B) / 2;
-
-  if(RESULT >= 7) {
-    cout << "Aprovado";
-  } else if (RESULT < 7 && RESULT >= 4) {
-    cout << "Recuperacao";
-  } else {
-    cout << "Reprovado";
+int main()
+{
+  int n, k, feedback;
+  cin >> n;
+  while (n--)
+  {
+    cin >> k;
+    while (k--)
+    {
+      cin >> feedback;
+      switch (feedback)
+      {
+      case 1:
+        cout << "Rolien" << endl;
+        break;
+      case 2:
+        cout << "Naej" << endl;
+        break;
+      case 3:
+        cout << "Elehcim" << endl;
+        break;
+      case 4:
+        cout << "Odranoel" << endl;
+        break;
+      }
+    }
   }
+
+  return 0;
 }
