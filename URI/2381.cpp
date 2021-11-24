@@ -3,16 +3,9 @@
 using namespace std;
 
 int main() {
-  int a, b;
-  vector<string> arr;
-  cin >> a >> b;
-  for(int i = 0; i < a; i += 1) {
-    string x;
-    cin >> x;
-    arr.push_back(x);
-  }
+  string a, b;
+  getline(cin, a);
+  getline(cin, b);
 
-  sort(begin(arr) , end(arr));
-
-  cout << arr[b - 1] << endl;
+  cout << a << b;
 }
