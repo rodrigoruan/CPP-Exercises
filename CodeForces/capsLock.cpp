@@ -14,7 +14,11 @@ int main() {
     }
   }
 
-  if(isupper(a[0])) allUpper = true;
+  if(isupper(a[0])) {
+    allUpper = true;
+  } else {
+    a[0] = toupper(a[0]);
+  }
 
   for(int i = allUpper ? 0 : 1; i < a.size(); i++) {
     a[i] = tolower(a[i]);
