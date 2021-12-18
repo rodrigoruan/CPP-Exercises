@@ -1,1 +1,1 @@
-  sort(arr.begin(), arr.end());
+    cout << res << "\n";
