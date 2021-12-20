@@ -1,1 +1,3 @@
-    cout << res << "\n";
+  for(int c : arr) {
+    cout << c << "\n";
+  }
