@@ -7,10 +7,16 @@ int main() {
   while(n) {
     n--;
     string s; cin >> s;
-    if((regex_search(s, regex("^(.)\\1+$")) || regex_search(s, regex("^(.+)\\1+$"))) && s.size() % 2 == 0) {
-      cout << "YES" << "\n";
-    } else {
+
+    if(s.size() % 2 != 0) {
       cout << "NO" << "\n";
+    } else {
+      string first = s.substr(0, s.size()/2);
+      string second = s.substr(s.size()/2,s.size());
+
+      string res = first == second ? "YES" : "NO";
+
+      cout << res << "\n";
     }
   }
 }
