@@ -22,6 +22,7 @@ DoublyLinkedListNode *sortedInsert(DoublyLinkedListNode *llist, int data)
   if (curr->next == NULL)
   {
     curr->next = newNode;
+    newNode->prev = curr;
     return llist;
   }
 
