@@ -1,0 +1,1 @@
+{"name":"Local: telephone","url":"/home/rodrigo/Desktop/C-Exercises/CodeForces/telephone.cpp","tests":[{"id":1640455529612,"input":"2\n13\n7818005553535\n11\n31415926535","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rodrigo/Desktop/C-Exercises/CodeForces/telephone.cpp","group":"local","local":true}
