@@ -1,0 +1,1 @@
+{"name":"Local: 1287","url":"/home/rodrigo/Desktop/C-Exercises/URI/1287.cpp","tests":[{"id":1640906882699,"input":"lo6\n234,657\n\nhi\n,,,,,5,,5,    4\n2200000000\n00","output":"106\n234657\nerror\nerror\n554\nerror\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rodrigo/Desktop/C-Exercises/URI/1287.cpp","group":"local","local":true}
