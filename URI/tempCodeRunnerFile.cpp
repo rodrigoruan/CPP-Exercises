@@ -1,1 +1,1 @@
-      arr.clear();
+  cin.ignore();
